@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.estemkpc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESTEMKPC">
+        <activity android:name=".Learnaboutproject"></activity>
+        <activity android:name=".RehurseActivity" />
+        <activity android:name=".QuoatActivity" />
+        <activity android:name=".CodeorgActivity" />
+        <activity android:name=".LearnProject" />
+        <activity android:name=".ClassActivity" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".CheExpirementVideo" />
+        <activity android:name=".ChemistrylessonvideoG9" />
+        <activity android:name=".VideoLessonCh" />
+        <activity android:name=".Chemistry" />
+        <activity android:name=".MathG7Activity" />
+        <activity android:name=".MathG9Activty" />
+        <activity android:name=".PDFOpener" />
+        <activity android:name=".MathG9" />
+        <activity android:name=".QuizMathActivity" />
+        <activity android:name=".LessonMathActivity" />
+        <activity android:name=".VideoMath" />
+        <activity android:name=".EnglishActivity" />
+        <activity android:name=".ScienceActivity" />
+        <activity android:name=".ICTActivity" />
+        <activity android:name=".MathActivity" />
+        <activity android:name=".WonActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ChemistryG9Quiz" />
+        <activity android:name=".ShareActivity" />
+        <activity android:name=".AttendenceActivity" />
+        <activity android:name=".ReminderActivity" />
+        <activity android:name=".ReviewlessonActivity" />
+        <activity android:name=".SoftskillActivity" />
+        <activity android:name=".STEMActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

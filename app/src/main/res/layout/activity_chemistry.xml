@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chemistry"
+    android:background="@drawable/purplebg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="គីមីវិទ្យា"
+        android:textSize="50sp"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="135dp"
+            android:src="@drawable/rabit"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:text="តោះចាប់ផ្តើមរៀន! នៅចាំដល់ណាទៀត"
+            android:textColor="@color/white"
+            android:textSize="27sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_marginLeft="0dp"
+        android:layout_width="390dp"
+        android:layout_height="220dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:alignmentMode="alignMargins"
+        android:layout_marginTop="230dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/videch"
+            android:layout_width="132dp"
+            android:layout_height="135dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_marginLeft="30dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="229dp"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/videolesson" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="វិដេអូមេរៀន"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/purple_500"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chexpivideo"
+            android:layout_width="140dp"
+            android:layout_height="145dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="220dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/chicon" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="វីដេអូពិសោធន៍"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/purple_500"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+    <GridLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="390dp"
+        android:layout_height="220dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:alignmentMode="alignMargins"
+        android:layout_marginTop="450dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/chexpirementfile"
+            android:layout_width="132dp"
+            android:layout_height="145dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_marginLeft="20dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="220dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/filepdf"
+                 />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="ឯកសារពិសោធន៍"
+                    android:layout_marginLeft="0dp"
+                    android:textColor="@color/purple_500"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quizch"
+            android:layout_width="140dp"
+            android:layout_height="145dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="12dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="220dp"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/quiz"
+                  />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:text="តេស្តគីមី"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/purple_500"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819617132956",
+    "project_id": "e-stem-5515d",
+    "storage_bucket": "e-stem-5515d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819617132956:android:12d96f3195882c797d9859",
+        "android_client_info": {
+          "package_name": "com.example.estemkpc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819617132956-kivti0rbec7h39l3r265cftn7l05rb9q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCatLqxpPH2Sv9IoOUeSolMWC9Sfs19uYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819617132956-kivti0rbec7h39l3r265cftn7l05rb9q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

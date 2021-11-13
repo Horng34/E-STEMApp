@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChemistryG9Quiz"
+    android:background="@drawable/purplebg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="តេស្តគីមីវិទ្យា"
+        android:textSize="40sp"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/MG7"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី៧"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី៨"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/MG9"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី៩"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី១០"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី១១"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bg_outline"
+                android:text="ទី១២"
+                android:textColor="@color/purple_500"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/unit1"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី១៖ មេរៀនទី១"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit2"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី១៖ មេរៀនទី២"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit3"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី២៖ មេរៀនទី១"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit4"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី២៖ មេរៀនទី២"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit5"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី២៖ មេរៀនទី៣"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit6"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី៣៖ មេរៀនទី១"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit7"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី៣៖ មេរៀនទី២"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit8"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី៣៖ មេរៀនទី៣"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/unit9"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:background="@drawable/bgofcard"
+                android:text="ជំពូកទី៣៖ មេរៀនទី៤"
+                android:textSize="25sp"
+                android:textColor="@color/purple_500"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
